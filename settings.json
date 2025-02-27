@@ -20,8 +20,8 @@
 
   "utils": {
     "auto-auth": {
-      "enabled": false,
-      "password": ""
+      "enabled": true,
+      "password": "1811ota#@"
     },
 
     "anti-afk": {
@@ -35,10 +35,10 @@
       "repeat-delay": 10,
 
       "messages": [
-        "/login 1811ota#@",
-        "veozinho",
+        "i need diamonds",
+        "hello guys",
         "pls dont kill me :(",
-        "/login 1811ota#@"
+        "ty for playing :D"
       ]
     },
 
