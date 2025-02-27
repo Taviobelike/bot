@@ -151,7 +151,7 @@ if (config.utils['auto-reconnect']) {
    bot.on('end', () => {
       setTimeout(() => {
          createBot();
-      }, 300 * 1000); // 300 segundos = 5 minutos
+      }, 60 * 1000); // 60 segundos = 1 minuto
    });
 }
 
