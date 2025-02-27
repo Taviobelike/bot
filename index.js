@@ -147,13 +147,14 @@ function createBot() {
       );
    });
 
-   if (config.utils['auto-reconnect']) {
-      bot.on('end', () => {
-         setTimeout(() => {
-            createBot();
-         }, config.utils['auto-recconect-delay']);
-      });
-   }
+if (config.utils['auto-reconnect']) {
+   bot.on('end', () => {
+      setTimeout(() => {
+         createBot();
+      }, 300 * 1000); // 300 segundos = 5 minutos
+   });
+}
+
 
    bot.on('kicked', (reason) =>
       console.log(
