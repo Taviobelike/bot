@@ -19,11 +19,6 @@
   },
 
   "utils": {
-    "auto-auth": {
-      "enabled": true,
-      "password": ""
-    },
-
     "anti-afk": {
       "enabled": true,
       "sneak": true
@@ -36,17 +31,23 @@
 
       "messages": [
         "i need diamonds",
-        "/login 180102jo1234",
         "pls dont kill me :(",
-        "/register 180102jo1234",
         "/w Q4ft to online :D",
         "i am a real person",
         "ty for playing :D"
       ]
     },
 
+    "first-join-messages": {
+      "enabled": true,
+      "messages": [
+        "test",
+        "/login 180102jo1234"
+      ]
+    },
+
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-recconect-delay": 300
+    "auto-reconnect-delay": 300
   }
 }
