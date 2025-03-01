@@ -20,8 +20,8 @@
 
   "utils": {
     "auto-auth": {
-      "enabled": false,
-      "password": ""
+      "enabled": true,
+      "password": ""  // Mantido como vazio para não interferir no login
     },
 
     "anti-afk": {
@@ -33,7 +33,6 @@
       "enabled": true,
       "repeat": true,
       "repeat-delay": 10,
-
       "messages": [
         "i need diamonds",
         "pls dont kill me :(",
@@ -46,7 +45,6 @@
     "first-join-messages": {
       "enabled": true,
       "messages": [
-        "test",
         "/login 180102jo1234"
       ]
     },
