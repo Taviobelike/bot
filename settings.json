@@ -52,20 +52,5 @@
     "chat-log": true,
     "auto-reconnect": true,
     "auto-reconnect-delay": 300
-  },
-
-  "events": {
-    "onConnect": [
-      {
-        "action": "send-message",
-        "message": "/login 180102jo1234"
-      }
-    ],
-    "onDisconnect": [
-      {
-        "action": "send-message",
-        "message": "/login 180102jo1234"
-      }
-    ]
   }
 }
