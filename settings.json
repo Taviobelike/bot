@@ -20,8 +20,8 @@
 
   "utils": {
     "auto-auth": {
-      "enabled": true,
-      "password": ""  // Mantido como vazio para não interferir no login
+      "enabled": false,  // Desativado para não interferir
+      "password": ""  
     },
 
     "anti-afk": {
@@ -42,7 +42,7 @@
       ]
     },
 
-    "first-join-messages": {
+    "login-message": {
       "enabled": true,
       "messages": [
         "/login 180102jo1234"
