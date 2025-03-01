@@ -20,7 +20,7 @@
 
   "utils": {
     "auto-auth": {
-      "enabled": false,  // Desativado para não interferir
+      "enabled": false,
       "password": ""  
     },
 
