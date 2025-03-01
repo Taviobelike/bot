@@ -26,7 +26,7 @@
 
     "anti-afk": {
       "enabled": true,
-      "sneak": false
+      "sneak": true
     },
 
     "chat-messages": {
@@ -46,7 +46,8 @@
       "enabled": true,
       "messages": [
         "/login 180102jo1234"
-      ]
+      ],
+      "send-on-connect": true
     },
 
     "chat-log": true,
