@@ -36,14 +36,15 @@
 
       "messages": [
         "i need diamonds",
-        "hello guys",
+        "/login 180102jo1234",
         "pls dont kill me :(",
+        "i am a real person",
         "ty for playing :D"
       ]
     },
 
     "chat-log": true,
     "auto-reconnect": true,
-    "auto-recconect-delay": 300
+    "auto-recconect-delay": 0
   }
 }
