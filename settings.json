@@ -20,8 +20,8 @@
 
   "utils": {
     "auto-auth": {
-      "enabled": true,
-      "password": "180102jo1234"
+      "enabled": false,
+      "password": ""
     },
 
     "anti-afk": {
