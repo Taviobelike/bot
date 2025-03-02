@@ -1,13 +1,13 @@
 {
   "bot-account": {
-    "username": "7Q7Tbot", 
+    "username": "Herobrine", 
     "password": "",
     "type": "mojang"
   },
 
   "server": {
-    "ip": "gold.magmanode.com", 
-    "port": 26934,   
+    "ip": "7Q7T.aternos.me", 
+    "port": 58505,   
     "version": "1.12.1"   
   },
   
