@@ -6,7 +6,7 @@
   },
 
   "server": {
-    "ip": "7Q7T.aternos.me:58505", 
+    "ip": "7Q7T.aternos.me", 
     "port": 58505,   
     "version": "1.12.1"   
   },
